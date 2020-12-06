@@ -6,4 +6,6 @@
     2. Compute the frequency of each character, and use that to compute its probability
     3. Sort the list of unique characters, in decreasing order of their probabilties.
     4. Create a list of α<sub>i</sub> values, which is the same as the cumulative sum of each probabilty.
-    5. Find the length of each encoded word, using the formula 2<sup>l<sub>i</sub></sup> ≥ 1/(p<sub>i</sub>)
+    5. Find the length of each encoded word, using the formula 2<sup>l<sub>i</sub></sup> ≥ 1/(p<sub>i</sub>).
+    6. The binary Shannon code for each symbol is the same as the binary representation of its α<sub>i</sub> value, upto l<sub>i</sub> length.
+    7. Find the values for the entropy, efficiency, average length and redundancy of the calculated codes.
