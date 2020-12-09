@@ -135,7 +135,7 @@ def main():
     # calculate and print the efficiency and redundancy
     efficiency = entropy / avg_length * 100
     efficiency = round(efficiency, 2)
-    redundancy = 100 - efficiency
+    redundancy = round(100 - efficiency, 2)
 
     print(f"Efficiency, η = {efficiency} %")
     print(f"Redundancy, R = {redundancy} %")
